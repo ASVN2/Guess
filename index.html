@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Aref+Ruqaa+Ink:wght@400;700&family=Barlow:wght@300;400;500;600;700&family=Comforter+Brush&family=Gochi+Hand&family=Handlee&family=Harmattan:wght@400;700&family=Josefin+Sans:wght@300;400;500;600;700&family=Open+Sans:wght@300;400;500;600;700&family=Patrick+Hand+SC&family=Playfair+Display:wght@400;500;600;700&display=swap"
+      rel="stylesheet" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="stylesheet" href="src/style.css" />
+    <link rel="shortcut icon" href="question.png" type="image/x-icon" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Guess</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="overlay-gamever">
+        <div class="boxing">
+          <i class="fa-solid fa-gamepad"></i>
+          <h1>Game Over</h1>
+          <h2>The word was <span></span></h2>
+        </div>
+      </div>
+      <!-- winning -->
+      <div class="winner">
+        <div class="boxing">
+          <i class="fa-solid fa-ranking-star"></i>
+          <h1>congratulations, <span>Stive</span></h1>
+        </div>
+      </div>
+
+      <!-- input name -->
+      <div class="input-name">
+        <input type="text" placeholder="Your Name" />
+        <div class="start">Start Game</div>
+      </div>
+      <!-- relad -->
+      <div class="relad">
+        <i class="fa-solid fa-arrows-rotate"></i>
+      </div>
+      <div class="info-contant">
+        <div class="flexing">
+          <div class="name"><i class="fa-regular fa-user"></i> <span>stive</span></div>
+          <div class="move"><i class="fa-solid fa-up-down-left-right"></i> <span>10</span></div>
+        </div>
+        <div class="flexing">
+          <div class="random"><i class="fa-solid fa-dice"></i><span>generation</span></div>
+          <div class="topic"><i class="fa-solid fa-clipboard-question"></i><span>Human</span></div>
+        </div>
+      </div>
+      <div class="game">
+        <div class="body">
+          <ul>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+          </ul>
+        </div>
+        <div class="letters">
+          <div class="contant"></div>
+        </div>
+        <div class="word"></div>
+      </div>
+    </div>
+  </body>
+  <script src="master.js"></script>
+</html>
